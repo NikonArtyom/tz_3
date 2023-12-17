@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './List.css'
 const List = ({ arr }) => {
 
     const [array, setArray] = useState(arr);
@@ -10,7 +10,6 @@ const List = ({ arr }) => {
         console.log(array);
         setArray([...array]);
     };
-
 
     return (
         <div>
