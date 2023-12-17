@@ -4,10 +4,14 @@ import './Toggle.css';
 const Toggle = () => {
 
     return (
-        <label class="switch">
-            <input type="checkbox" />
-            <span class="slider round"></span>
-        </label>
+        <div className="light dark">
+            <p>Light/Dark</p>
+            <label className="switch">
+                <input type="checkbox" />
+                <span className="slider round"></span>
+            </label>
+        </div>
+
     )
 }
 

@@ -7,7 +7,7 @@ body {
     background-color: #f57206;
 }
 
-.App {
+.app {
     display: flex;
     flex-direction: column;
     justify-content: center;

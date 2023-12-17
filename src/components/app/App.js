@@ -9,7 +9,7 @@ function App() {
   const array = [1, 2, 3]
 
   return (
-    <div>
+    <div className="app">
       <List arr={array} />
       <Ref />
       <Toggle />

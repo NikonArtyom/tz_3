@@ -20,7 +20,7 @@ const Ref = () => {
         <div>
             <input type='text' ref={ref} onClick={handleClick} onKeyDown={pressEnter} />
             <button onClick={handleClick}>Focus input</button>
-            {value && <p>{value}</p>}
+            {value && <p className="ref">{value}</p>}
         </div>
     )
 }
