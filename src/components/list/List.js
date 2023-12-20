@@ -7,7 +7,6 @@ const List = ({ arr }) => {
     const handleClick = (index) => {
 
         array.splice(index, 1, '№ ' + array[index]);
-        console.log(array);
         setArray([...array]);
     };
 

@@ -19,13 +19,11 @@ button {
     margin-left: 5px;
 }
 
-.ref {
-    background-color: #d9d99b;
-    border-radius: 20px;
+p {
     min-width: 300px;
-    min-height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-weight: bold;
 }
