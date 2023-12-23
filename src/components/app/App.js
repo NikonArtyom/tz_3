@@ -11,11 +11,9 @@ function App() {
 
   return (
     <ThemeProvider>
-      <>
-        <List arr={array} />
-        <Ref />
-        <Toggle />
-      </>
+      <List arr={array} />
+      <Ref />
+      <Toggle />
     </ThemeProvider>
   )
 }
